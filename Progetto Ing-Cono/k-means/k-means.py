@@ -8,8 +8,7 @@ from sklearn.metrics import confusion_matrix, classification_report, average_pre
 from inspect import signature
 
 columns_to_drop = ["ID", "ZIP Code"]
-categorical_columns = ["Family", "Education", "Personal Loan", "Securities Account", "CD Account", "Online",
-                       "CreditCard"]
+categorical_columns = ["Family", "Education", "Personal Loan", "Securities Account", "CD Account", "Online", "CreditCard"]
 numeric_columns = ["Age", "Experience", "Income", "CCAvg", "Mortgage"]
 
 
